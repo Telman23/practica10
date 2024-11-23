@@ -1,0 +1,45 @@
+table,
+td {
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+.Total {
+    text-align: center;
+    padding-right: 0px;
+}
+
+tfoot {
+    background-color: red;
+}
+
+tr:hover {
+    background-color: purple;
+}
+
+.refore:focus {
+    background-color: blue;
+}
+
+.get:hover {
+    background-color: green;
+    color: yellow;
+}
+
+.color:after {
+    content: "AFTER";
+    color: orange;
+}
+
+.color:before {
+    content: "BEFORE";
+    color: red;
+
+}
+
+.block {
+    background-color: green;
+    width: 300px;
+}
+
+.text:hover+.block {}
